@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ['*.html'],
   theme: {
     extend: {},
+    clipPath: {
+      mypg: 'polygon(0 0, 100% 0, 100% 50%, 0% 100%)'
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-clip-path'),
+  ],
 }
