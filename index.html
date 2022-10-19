@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="w-full h-[100vh] relative">
-        <div class="absolute z-0 inset-0 h-[500px] clip-path-mypg">
+        <div class="absolute z-0 inset-0 h-[650px] -skew-y-12 -translate-y-72 transform">
             <canvas id="gradient-canvas">
         </div>
         </canvas>
@@ -30,11 +30,76 @@
                 </div>
                 <button class="outline-none text-white bg-white bg-opacity-30 px-3 py-1 rounded-2xl font-bold">Sign in <i class="fa-solid fa-chevron-right text-xs"></i></button>
             </nav>
-            <div class="h-full flex flex-col justify-center">
-                <div class="text-8xl font-bold max-w-2xl tracking-tighter mix-blend-overlay">Financial infrastructure for the internet</div>
+            <div class="flex justify-between items-center mt-16 pt-16">
+                <div class="h-full flex flex-col justify-center space-y-6">
+                    <div class="text-8xl font-bold max-w-2xl tracking-tighter mix-blend-overlay">Financial infrastructure for the internet</div>
+                    <p class="text-gray-500 font-semibold max-w-xl">Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online.</p>
+                    <div class="flex">
+                        <button class="bg-gray-900 text-white rounded-3xl px-4 py-2 font-bold text-sm">Start now <i class="fa-solid fa-chevron-right text-xs"></i></button>
+                        <button class="bg-white text-gray-900 rounded-xl px-4 py-2 font-bold text-sm">Contact sales</button>
+                    </div>
+                </div>
+                <div class="flex">
+                    <figure class="PhoneGraphic">
+                        <img src="./assets/vector/phonepay.png" alt="" class="rounded-4xl">
+                    </figure>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="grid grid-cols-4 gap-y-10 mt-32 px-36">
+        <img src="./assets/img/logo1.svg" alt="" srcset="">
+        <img src="./assets/img/logo2.svg" alt="" srcset="">
+        <img src="./assets/img/logo3.svg" alt="" srcset="">
+        <img src="./assets/img/logo4.svg" alt="" srcset="">
+        <img src="./assets/img/logo5.svg" alt="" srcset="">
+        <img src="./assets/img/logo6.svg" alt="" srcset="">
+        <img src="./assets/img/logo7.svg" alt="" srcset="">
+        <img src="./assets/img/logo8.svg" alt="" srcset="">
+    </div>
+
+    <div class="p-32 mt-32 bg-gray-100">
+        <div class="space-y-7">
+            <div class="text-blue-600 font-bold text-xl">Unified platform</div>
+            <div class="text-4xl font-bold text-gray-900 max-w-md">A fully integrated suite of payments products</div>
+            <div class="flex gap-8 items-center">
+                <div class="max-w-lg text-gray-600 font-semibold text-lg leading-1.5">
+                    We bring together everything that’s required to build websites and apps that accept payments and send payouts globally. Stripe’s products power payments for <a href="#" class="text-blue-700 hover:text-gray-900">online and in-person retailers</a>, <a href="#" class="text-blue-700 hover:text-gray-900">subscriptions businesses</a>, <a href="#" class="text-blue-700 hover:text-gray-900">software platforms and marketplaces</a>, and everything in between.
+                </div>
+                <div class="max-w-lg text-gray-600 font-semibold text-lg leading1 5">
+                    We also help companies <a href="#" class="text-blue-700 hover:text-gray-900">beat fraud</a>, <a href="#" class="text-blue-700 hover:text-gray-900">send invoices</a>, <a href="#" class="text-blue-700 hover:text-gray-900">issue virtual and physical cards</a>, <a href="#" class="text-blue-700 hover:text-gray-900">reduce friction at checkout</a>, <a href="#" class="text-blue-700 hover:text-gray-900">get financing</a>, <a href="#" class="text-blue-700 hover:text-gray-900">manage business spend</a>, and much more.
+                </div>
+            </div>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-3xl text-sm font-bold">Start with payments <i class="fa-solid fa-chevron-right text-xs"></i></button>
+        </div>
+
+        <div class="grid grid-cols-[323px_1fr] mt-16">
+            <div class="flex flex-col justify-between">
+                <div class="">
+                    <img src="./assets/img/visa.png" alt="" srcset="">
+                </div>
+                <div class="">
+                    <img src="./assets/img/phone2.png" alt="">
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="flex relative">
+                    <div class="max-w-[501px]">
+                        <img src="./assets/img/slack.png" alt="">
+                    </div>
+                    <div class="max-w-[256px] absolute right-0 bottom-0">
+                        <img src="./assets/img/phone1.png" alt="">
+                    </div>
+                </div>
+                <div class="">
+                    <img src="./assets/img/dashboard.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 
     <script src="./js/script.js"></script>
 </body>
