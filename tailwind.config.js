@@ -15,19 +15,45 @@ module.exports = {
       colors: {
         'dark': '#0a2540',
         bright: '#adbdcc',
-        secondary: '#00d4ff'
+        secondary: '#00d4ff',
+        "gradient-color-one": "#a960ee",
+        "gradient-color-two": "#ff333d",
+        "gradient-color-three": "#90e0ff",
+        "gradient-color-four": "#ffcb57",
       },
       fontSize: {
         '4.1xl': '38px',
         '1sm': 'calc(1rem - 1px)'
       },
+      fontFamily: {
+        'raleway': "'Raleway', sans-serif"
+      },
       width: {
-        '9/10': '90%'
+        '9/10': '90%',
+        '66': '264px',
+        '133': '533px',
+        '1.7/4': '45%',
+        '125': '31.3rem'
+      },
+      maxWidth: {
+        '125': '31.3rem'
       },
       height: {
+        '1.6screen': '160vh',
         '1.5screen': '150vh',
         '1.2screen': '120vh',
         '1.1screen': '110vh',
+        '162.5': '650px',
+        '133': '533px'
+      },
+      spacing: {
+        '34': '136px',
+        '18': '72px'
+      },
+      rotate: {
+        '7': '7deg',
+        '6': '6deg',
+        '5': '5deg',
       }
     },
     clipPath: {
